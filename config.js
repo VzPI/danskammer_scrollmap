@@ -7,7 +7,7 @@ var config = {
     title: 'The Danskammer Power Plant',
     subtitle: "Wall Street's scheme to refuel a mothballed power plant with Pennsylvania's Marcellus Shale fracked gas",
     byline: 'Visualizing Pipeline Impacts | @pipelineimpacts',
-    footer: 'Source: source citations, etc.',
+    footer: 'Visualizing Pipeline Impacts | @pipelineimpacts',
     chapters: [
         {
             id: 'slug-style-id',
