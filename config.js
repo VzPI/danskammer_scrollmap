@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/vzpi/ck4utjm4n0ipb1dmqenmov4tw',
+    style: 'mapbox://styles/vzpi/ck4vut7wn29co1cqmj9id2wrf',
     accessToken: 'pk.eyJ1IjoidnpwaSIsImEiOiJjazRvaHViZ2kxcHdtM2pvZ21tdG90YTN3In0.i12GeLMjHHmBGpuTTSZsFQ',
     showMarkers: false,
     theme: 'dark',
@@ -7,14 +7,14 @@ var config = {
     title: 'The Danskammer Power Plant',
     subtitle: "Wall Street's scheme to refuel a mothballed power plant with Pennsylvania's Marcellus Shale fracked gas",
     byline: 'Visualizing Pipeline Impacts | @pipelineimpacts',
-    footer: 'Visualizing Pipeline Impacts | @pipelineimpacts | all images, charts, and data analysis © VzPi unless otherwise noted.',
+    footer: 'Visualizing Pipeline Impacts | @pipelineimpacts | all images, charts, and data analysis © VzPi, 2020, unless otherwise noted.',
     chapters: [
 
 
     //section 1
         {
             id: 'section-1',
-            title: 'The Danskammer Power Plant, New York State, 2019',
+            title: 'The Danskammer Power Plant, New York State, 2020',
             image: 'https://i.imgur.com/rvGp6NJ.png',
             description: '<p>Situated on the western shore of the Hudson River 50 miles north of New York City lies a decrepit, barely operating, 20th century power plant - the Danskammer Plant. Tiger Infrastructure, a venture capital outfit with close ties to the far-right Trump agenda, intends to cobble together plant remnants, meld them with new turbines, a compressor, pipes and metering yards, bringing to life a 40-year, always-on frankensteinian fracked gas plant. But first a public test: Danskammer will be scrutinized under the newly minted Climate Leadership and Community Protection Act (CLCPA).</p><p>References:</p><p><a href="https://public-accountability.org/report/putting-the-scam-in-danskammer/">Putting the Scam in Danskammer</a></p>',
             location: {
@@ -53,15 +53,15 @@ var config = {
             image: 'https://i.imgur.com/J3gp6KW.png',
             description: 'Danskammer and its twin - the Roseton Plant - are lodged between three post-industrial cities - Newburgh, Beacon and Poughkeepsie. While the Roseton namplate capacity is twice that of the Danskammer proposal, the run time of both plants has dwindled dramatically over the past decade. In effect, both sit idle, existing to collect capacity payments - millions of ratepayer dollars per year - to maintain a few hours and days worth of peaker operation.<p>References:</p><p><a href="https://www.publicpower.org/system/files/documents/70%20RTO%20Capacity%20Markets%20and%20Their%20Impacts%20on%20Consumers%20and%20Public%20Power%20July%202019.pdf">RTO Capacity Markets and Their Impacts On Consumers and Public Power</a></p>',
             location: {
-            	center: [-74.04912, 41.59372],
-				zoom: 10.93,
-				pitch: 0.00,
-				bearing: 0.00
+              center: [-74.04912, 41.59372],
+        zoom: 11.40,
+        pitch: 0.00,
+        bearing: 0.00
               
             },
     onChapterEnter: [
    
-	  {
+    {
           layer: '2-plant-pts',
           opacity: 1
       },
@@ -72,7 +72,7 @@ var config = {
 
                     ],
     onChapterExit:  [
-	  {
+    {
           layer: '2-plant-pts',
           opacity: 0
       },
@@ -315,20 +315,20 @@ var config = {
 
       {
           layer: 'new-plants-txt',
-          opacity: 0
+          opacity: 1
       },
 
       {
-          layer: 'capacity-zone-in',
-          opacity: 0
+          layer: 'capacity-zone-in-line',
+          opacity: 1
       },
       {
-          layer: 'transmission-inside',
-          opacity: 0
+          layer: 'transmission-inside-light',
+          opacity: 1
       },
       {
           layer: 'new-plants',
-          opacity: 0
+          opacity: 1
       },
       {
           layer: 'transmission-outside-220',
@@ -347,11 +347,11 @@ var config = {
       },
 
       {
-          layer: 'capacity-zone-in',
+          layer: 'capacity-zone-in-line',
           opacity: 0
       },
       {
-          layer: 'transmission-inside',
+          layer: 'transmission-inside-light',
           opacity: 0
       },
       {
@@ -377,65 +377,66 @@ var config = {
             id: 'section-9',
             title: "Danskammer's Defect: The Climate Leadership and Community Protection Act (CLCPA)",
             image: 'https://i.imgur.com/drjzMlu.png',
-            description: "Contrary to conventional wisdom, New York State over the past decade has been largely ineffectual at stopping any significant fracked gas infrastructure. Yes, Constitution Pipeline was blocked in 2016, but it has been brought back to life in 2019 by none other than FERC.  Certainly the 2014 fracking moratorium was a significant environmental achievement, but in aggregate the state only possesses 0.03% of US gas reserves.  New York was, is, and will be for the foreseeable future a 'client state' primarily of Pennsylvania's Marcellus Shale gas. However, the state is nothing if not aspirational on emission targeting. With the passage of CLCPA as enforceable law in late 2019, the state was just handed a lethal tool in the fight to kill the Danskammer application while severely cutting short the meager life left in this 20th century Behemoth.  Like all fights, this one will require inordinate public pressure and determined legal opposition. Organizations that are leading the way on both counts are listed as follows, and noted on the map to the right.  The application itself is avaible for bulk download as noted below, as is the Public Service Commission's project docket for Danskammer.  Follow @pipelineimpacts for regular project analysis in early 2020.",  location: {
-                center: [-79.34914, 42.54303],
-                zoom: 6.50,
+            description: 'Contrary to conventional wisdom, New York State over the past decade has been largely ineffectual at stopping any significant fracked gas infrastructure. Yes, Constitution Pipeline was blocked in 2016, but it has been brought back to life in 2019 by none other than FERC.  Certainly the 2014 fracking moratorium was a significant environmental achievement, but in aggregate the state only possesses 0.03% of US gas reserves.  New York was, is, and will be for the foreseeable future a client state primarily of Pennsylvania Marcellus Shale gas. However, the state is nothing if not aspirational on emission targeting. With the passage of CLCPA as enforceable law in late 2019, the state was just handed a lethal tool in the fight to kill the Danskammer application while severely cutting short the meager life left in this twentieth century Behemoth.  Like all fights, this one will require inordinate public pressure and determined legal opposition. Organizations that are leading the way on both counts are listed as follows, and noted on the map to the right.  The application itself is avaible for bulk download as noted below, as is the Public Service Commission project docket for Danskammer.  Follow @pipelineimpacts for regular project analysis in early 2020.</p><p>References:</p><p><a href="https://www.nycommunities.org/issues/climate/">NY Communities for Change</a></p><p><a href="https://www.nrdc.org/">NRDC</a></p><p><a href="https://www.foodandwaterwatch.org/office-location/new-york">Food & Water Watch</a></p><p><a href="https://www.clearwater.org/">Hudson River Sloop Clearwater</a></p><p><a href="https://www.nypirg.org/">NYPIRG</a></p><p><a href="https://earthjustice.org/">Earth Justice</a></p><p><a href="https://www.riverkeeper.org/">Hudson Riverkeeper</a></p>',  
+                location: {
+                center: [-74.56485, 41.14408],
+                zoom: 9.00,
                 pitch: 0.00,
                 bearing: 0.00
             },
             onChapterEnter: [
 
       {
-          layer: 'new-plants-txt',
-          opacity: 0
+          layer: 'org1-txt',
+          opacity: 1
       },
 
       {
-          layer: 'capacity-zone-in',
-          opacity: 0
-      },
-      {
-          layer: 'transmission-inside',
-          opacity: 0
-      },
-      {
-          layer: 'new-plants',
-          opacity: 0
-      },
-      {
-          layer: 'transmission-outside-220',
+          layer: 'org2-txt',
           opacity: 1
       },
       {
-          layer: 'capacity-zone-out',
-          opacity: .50
+          layer: 'org1',
+          opacity: 1
+      },
+      {
+          layer: 'org2',
+          opacity: 1
+      },
+      {
+          layer: 'danskammer-solo',
+          opacity: 1
+      },
+      {
+          layer: 'danskammer-solo-txt',
+          opacity: 1
       },
             ],
             onChapterExit: [
 
       {
-          layer: 'new-plants-txt',
+          layer: 'org1-txt',
           opacity: 0
       },
 
       {
-          layer: 'capacity-zone-in',
+          layer: 'org2-txt',
           opacity: 0
       },
       {
-          layer: 'transmission-inside',
+          layer: 'org1',
           opacity: 0
       },
       {
-          layer: 'new-plants',
+          layer: 'org2',
           opacity: 0
       },
       {
-          layer: 'transmission-outside-220',
+          layer: 'danskammer-solo',
           opacity: 0
       },
       {
-          layer: 'capacity-zone-out',
+          layer: 'danskammer-solo-txt',
           opacity: 0
       },
 
