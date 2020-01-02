@@ -16,7 +16,7 @@ var config = {
             id: 'section-1',
             title: 'The Danskammer Power Plant, New York State, 2020',
             image: 'https://i.imgur.com/rvGp6NJ.png',
-            description: '<p>Situated on the western shore of the Hudson River 50 miles north of New York City lies a decrepit, barely operating, 20th century power plant - the Danskammer Plant. Tiger Infrastructure, a venture capital outfit with close ties to the far-right Trump agenda, intends to cobble together plant remnants, meld them with new turbines, a compressor, pipes and metering yards, bringing to life a 40-year, always-on frankensteinian fracked gas plant. But first a public test: Danskammer will be scrutinized under the newly minted Climate Leadership and Community Protection Act (CLCPA).</p><p>References:</p><p><a href="https://public-accountability.org/report/putting-the-scam-in-danskammer/">Putting the Scam in Danskammer</a></p>',
+            description: '<p>Situated on the western shore of the Hudson River 50 miles north of New York City lies a decrepit, barely operating, 20th century power plant - the Danskammer Plant. Tiger Infrastructure, a venture capital outfit with close ties to the far-right Trump agenda, intends to cobble together plant remnants, meld them with new turbines, a compressor, pipes and a significantly expanded metering yard, bringing to life a 30-year, always-on <i>energy center</i>. But first a public test: Danskammer will be scrutinized under the newly minted Climate Leadership and Community Protection Act (CLCPA).</p><p>References:</p><p><a href="https://public-accountability.org/report/putting-the-scam-in-danskammer/">Putting the Scam in Danskammer</a></p>',
             location: {
                 center: [-74.35006, 41.37288],
                 zoom: 8.38,
@@ -88,7 +88,7 @@ var config = {
             id: 'section-3',
             title: 'Emissions Hotspot: the Roseton + Danskammer Plants',
             image: 'https://i.imgur.com/7FIh8Gx.png',
-            description: 'Danskammer claims its new incarnation as a 24/7 baseline operation will produce FEWER emissions, more efficient emissions - this is demonstrably false. A newly realized Danskammer would deliver a 4,033% increase in CO2e emissions, from 47 thousand to nearly 2 million tons/year. Based on its historical operation trend, the intended sleight-of-hand is obvious: use a no-build scenario that reflects operations backdated to 2010, ignoring the operations reality of the last decade. Earth Justice has placed an excellent comment letter on the project docket that details this subterfuge.<p>References:</p><p><a href="https://docdro.id/Hak3Z20">Earth Justice Preliminary Scoping Statement Comment Letter 43/29/19</a></p>',
+            description: 'Danskammer claims its new incarnation as a 24/7 baseline <i>energy center</i> will produce FEWER emissions, more efficient emissions - this is demonstrably false. A newly realized Danskammer would deliver a 4,033% increase in CO2e emissions, from 47 thousand to nearly 2 million tons/year. Based on its historical operation trend, the intended sleight-of-hand is obvious: use a no-build scenario that reflects operations backdated to 2010, ignoring the operations reality of the last decade. Earth Justice has placed an excellent comment letter on the project docket that details this subterfuge.<p>References:</p><p><a href="https://docdro.id/Hak3Z20">Earth Justice Preliminary Scoping Statement Comment Letter 43/29/19</a><p><a href="https://www.eia.gov/electricity/data/eia923/">Chart Based on EPA 923 filings for Danskammer Power Plant</a></p></p>',
             location: {
               center: [-73.97349, 41.56167],
         zoom: 14.00,
@@ -122,9 +122,9 @@ var config = {
 
         {
             id: 'section-4',
-            title: 'Danskammer: the site design',
+            title: 'The Danskammer Site Plan: expediency over sound design',
             image: 'https://i.imgur.com/47enOtA.png',
-            description: 'DEC Releases Draft Flood Risk Management Guidance.  add in image - https://i.imgur.com/BvLC8P0.png',
+            description: 'Straddling the CSX Transportation River Subdivision train tracks, the Danskammer <i>Energy Center</i> would be grafted onto existing infrastructure, slightly southwest of the orange-brown structure in application graphic above. Seemingly this erratic site design is being advanced to prioritize two critical inputs over all else: an existing 12-inch Central Hudson Gas & Electric steel gas pipe and the 115-kilovolt powerlines  necessary to output generation back onto the grid (represented as blue lines in the map to the right).  Little is disclosed about site design and alterations beyond the blanket statement <i>Certain existing Station structures, buildings, fixtures, and other improvements will be removed to accommodate the siting and construction of new Project components</i>, totaling a proposed demolition budget of 7 million.',
             location: {
                 center: [-73.97832, 41.57198],
                 zoom: 15.40,
@@ -154,9 +154,9 @@ var config = {
 
         {
             id: 'section-5',
-            title: 'Danskammer: the site design, cont.',
-            image: 'https://i.imgur.com/BvLC8P0.png',
-            description: 'DEC Releases Draft Flood Risk Management Guidance.  coal ash, tanks',
+            title: "Danskammer's past portends a precarious future",
+            image: 'https://i.imgur.com/JMpGZ86.png',
+            description: "Danskammer's coal past predominates present site conditions.  By way of comparison, the ash pits that were active in this 1994 UGSG aerial image would undergird Danskammer's grafted  <i>energy center</i>. While Danskammer reassures the public that its ash pits are 'fully monitored', there is scant information in the application regarding their mitigation and final cleanup.  As is well known, the plant was inundated by Hurricane Sandy, yet Danskammer elects to construct in the same location with the unconvincing assertion that new facilities will remain outside of the 100-year floodplain and account for NYSDEC 2017 sea level rise guidance.  Nowhere in the application is there even the mention of storm surge inundation from a signifcant weather event - highly likely across the next 30 years of rapid climate change.",
             location: {
                 center: [-73.96709, 41.57173],
                 zoom: 17.00,
@@ -188,7 +188,7 @@ var config = {
             id: 'section-6',
             title: 'Danskammer: a case study in the proliferation of Hudson Valley fracked gas plants',
             image: 'https://i.imgur.com/wGeY7cg.png',
-            description: 'Planning begets reality, and the gas industry has had its sights on New York State, particularly NYC, for all types and phases of gas infrastructure. Throughout the past decade, pipeline companies have aggressively pushed long-term, intensive end uses for their Marcellus Shale product, the prize being baseline power plants that consume huge amounts of gas on a FIRM contract basis. Indeed, their plans have largely proven effective, straddling the state with a toxic, non-renewable commitment that is proving month by month to be increasingly untenable in an era of rapid climate change.  Three plants - the CPV Plant in Middletown, the Cricket Valley Plant in Dover and now the Danskammer proposal near Newburgh are not happenstance; that are strategically arranged at the nexus of four interstate pipelines: Algonquin, Iroquois, Millennium, and the Tennessee Gas Pipeline (represented as blue lines on map).',   
+            description: "Planning begets reality, and the gas industry has had its sights on New York State, particularly the New York City region, for every possible combination and phase of gas infrastructure. Throughout the past decade, pipeline companies have aggressively pushed long-term, intensive end uses for their Marcellus Shale product, the prize being baseline power plants that consume huge amounts of gas on a FIRM contract basis. Three plants - the CPV Plant in Middletown, the Cricket Valley Plant in Dover and now the Danskammer proposal near Newburgh are not happenstance; that are strategically arranged at the nexus of four interstate pipelines: Algonquin, Iroquois, Millennium, and the Tennessee Gas Pipeline (all represented by the gray lines on map at right). The image above was captured from a 2011 Millennium Pipeline, LLC planning document.  While their 'Secondary Power Plant Development Area' hasn't panned out yet, the primary one certainly has.",   
                 location: {
                 center: [-79.34914, 42.54303],
                 zoom: 6.50,
@@ -241,8 +241,7 @@ var config = {
             id: 'section-7',
             title: "FERC: the federal agency responsible for gas proliferation in New York State",
             image: 'https://i.imgur.com/U4l7M9c.png',
-            description: 'Ferc  capcity zone history. shown in the map is Zone G-J, also referred to as Zone NCZ (new capacity zone). transmission inside the zone coupled with the three plants that would not exist without the zone - CPV, Cricket Valley and Danskammer. Link to the CPV complaint document; text for trying to unravel the zone.  show the demand chart.  removal of zone = threat.  both cpv and cricket valley part of gold book assumptions',   
-                location: {
+            description: "FERC, The Federal Energy Regulatory Commission, is the primary driver of both gas pipelines and the markets in which they operate. Even as they hand over operation of the markets to RTOs (Regional Transmission Organizations), FERC has ultimate jurisdiction.  In 2014, FERC established the 'NCZ' (New Capacity Zone), what is referred today as the 'G-J Zone', covering all of New York's 5 boroughs and northern territories into Hudson Valley. In the map at right, the grey-blue territory is the zone; the bright blue lines represent transmission lines in the zone.  The G-J Zone was hotly contested by New York State as it would, and indeed has, raised rates precipitously in 'downstate' New York.  Not by accident, this is where fracked gas plants have proliferated simply because they can make huge profits on the zone's inflated rate - exactly Danskammer's intention. All the while, the actual demand for the capacity these plants provide remains steady or decreases year over year. As seen in the chart above based on NYSIO 2019 demand  modeling in the G-J zone (inclusive of the Indian Point Nuclear Plant 2020-21 closure), it is not until the year XX when a modest demand case appears.",  location: {
                 center: [-75.03286, 41.50591],
                 zoom: 8.18,
                 pitch: 0.00,
@@ -304,7 +303,7 @@ var config = {
             id: 'section-8',
             title: "Upstate vs Downstate: a geographic split of unintented consequences",
             image: 'https://i.imgur.com/epN9ue9.png',
-            description: 'Just as FERC forced upon New York State its deterministic capacity zone, it further severed upstate vs downstate.  the state has signifcant renewable capacity but it is constained north of the FERC mandated capacity zone.  NYSIO has recently begun to upgrade signficant portions. however, signifcant damage has bee done to insintivize gas infrastructure over renewables, largely due coordinated actions of the gas industry and FERC.',   
+            description: 'Just as FERC forced upon New York State a deterministic capacity zone, ironically it exacerbated the very thing it obstensibly tried to solve: long term energy capacity.  The state has signifcant renewable capacity but it is constained north of the FERC mandated capacity zone.  NYSIO has recently begun to upgrade signficant portions. however, signifcant damage has bee done to insintivize gas infrastructure over renewables, largely due coordinated actions of the gas industry and FERC.',   
                location: {
                 center: [-79.34914, 42.54303],
                 zoom: 6.50,
