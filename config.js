@@ -82,12 +82,11 @@ var config = {
       },
                     ]
       },
-
 //section 3
       {
             id: 'section-3',
             title: 'The Danskammer Proposal: an emissions hotspot',
-            image: 'https://i.imgur.com/E1ril9d.png',
+            image: 'https://i.imgur.com/F77To7u.png',
             description: 'Danskammer claims its new incarnation as a 24/7 baseline <i>energy center</i> will produce FEWER emissions, more efficient emissions - this is demonstrably false. A newly realized Danskammer would deliver a 4,033% increase in CO2e emissions, from 47 thousand to nearly 2 million tons/year. Based on its historical operation trend seen in the graph above, a precipitous decline is obvious across the past decade.  Simply put, the plant barely operates.  A new baseline plant operation would be exponentially more emitting than current operations. Earth Justice has placed an excellent comment letter on the project docket that details this important distinction, one that Danskammer has already tried to obfuscate.<p>References:</p><p><a href="https://docdro.id/Hak3Z20">Earth Justice Preliminary Scoping Statement Comment Letter 43/29/19</a><p><a href="https://www.eia.gov/electricity/data/eia923/">Chart Based on EPA 923 filings for Danskammer Power Plant</a></p></p>',
             location: {
               center: [-73.97349, 41.56167],
@@ -230,7 +229,7 @@ var config = {
       {
             id: 'section-7',
             title: "FERC: the federal agency responsible for gas proliferation in New York State",
-            image: 'https://i.imgur.com/U4l7M9c.png',
+            image: 'https://i.imgur.com/LEQHmy1.png',
             description: 'FERC, The Federal Energy Regulatory Commission, is the primary driver of both gas pipelines and the markets in which they operate. Even as they hand over operation of the markets to RTOs (Regional Transmission Organizations), FERC has ultimate jurisdiction.  In 2014, FERC established the <i>NCZ</i> (New Capacity Zone), what is referred today as the <i>G-J Locality</i>, covering all NYC 5 boroughs and northern territories to Hudson Valley. In the map at right, the grey-blue territory is the zone; the bright blue lines represent transmission lines within the zone.  The <i>G-J Locality</i> was hotly contested by New York State as it would, and indeed has, raised rates precipitously in <i>downstate</i> New York.  Not by accident, this is where fracked gas plants have proliferated simply because they can make huge profits via the inflated zone rate, just as Danskammer intends to do. All the while, actual demand for the generation capacity remains steady, even decreases year over year. The chart above, based on New York Independent System Operator (NYSIO) 2019 modeling for the <i>G-J Locality</i> (inclusive of the Indian Point Nuclear Plant 2020-21 closure) 2009 - 2039, hardly makes the case for expanded gas generation.<p>References:</p><p><a href="https://www.nyiso.com/documents/20142/2226333/2019-Gold-Book-Final-Public.pdf/">NYSIO 2019 Load & Capacity Data - Gold Book</a></p>',
                 location: {
                 center: [-74.930024, 41.511727],
